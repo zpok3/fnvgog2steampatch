@@ -1,5 +1,5 @@
 # fnvgog2steampatch
-Delta patch that turns the executable from the GOG version of Fallout: New Vegas into the one from the Steam version.
+Delta patch that turns the executable from the GOG version of Fallout: New Vegas into the one from the Steam version. [Nexus page](https://www.nexusmods.com/newvegas/mods/87244)
 ## Requirements
 
 - [Fallout New Vegas Ultimate Edition from GOG](https://www.gog.com/en/game/fallout_new_vegas_ultimate_edition) (English version only)

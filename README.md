@@ -4,8 +4,6 @@ Delta patch that turns the executable from the GOG version of Fallout: New Vegas
 
 - [Fallout New Vegas Ultimate Edition from GOG](https://www.gog.com/en/game/fallout_new_vegas_ultimate_edition) (English version only)
 
-- [FNV 4GB Patcher](https://www.nexusmods.com/newvegas/mods/62552)
-
 - [Xdelta3](https://github.com/jmacd/xdelta/releases/tag/latest)
 
 ## Installation

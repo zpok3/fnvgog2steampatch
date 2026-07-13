@@ -1,8 +1,12 @@
 # fnvgog2steampatch
 Delta patch that turns the executable from the GOG version of Fallout: New Vegas into the one from the Steam version. [Nexus page](https://www.nexusmods.com/newvegas/mods/87244)
+
+## Overview
+This delta patch is pretty much only for installing [Begin Again](https://www.nexusmods.com/newvegas/mods/79547) because as far as I know, Begin Again is the only Wabbajack modlist that delta patches platform specific files (4GB patched `FalloutNV.exe`), and as such requires the Steam version.
+
 ## Requirements
 
-- [Fallout New Vegas Ultimate Edition from GOG](https://www.gog.com/en/game/fallout_new_vegas_ultimate_edition) (English version only)
+- [Fallout: New Vegas Ultimate Edition from GOG](https://www.gog.com/en/game/fallout_new_vegas_ultimate_edition)
 
 - [Xdelta3](https://github.com/jmacd/xdelta/releases/tag/latest)
 
@@ -19,14 +23,16 @@ Delta patch that turns the executable from the GOG version of Fallout: New Vegas
 ./xdelta3 -d -s "<path to game>\FalloutNV_backup.exe" fnvgog2steampatch.xdelta "<path to game>\FalloutNV_steam.exe"
 ```
 > [!note]
-> If you verified your game files because you used the BSA decompressor and haven't rerun the 4GB patch yet, you can use `FalloutNV.exe` instead of `FalloutNV_backup.exe` for the source file.
+> If you haven't used the [4GB Patcher](https://www.nexusmods.com/newvegas/mods/62552) yet you can use `FalloutNV.exe` instead of `FalloutNV_backup.exe` for the source file.
 
-5. You should now be able to install Begin Again.
+5. A file called `FalloutNV_steam.exe` should appear in your game's root folder.
 
-6. After installation, replace the `FalloutNV.exe` located in `<path to where you installed Begin Again>\mods\FNV4GB\Root` with your own 4GB patched executable.
+6. You should now be able to install Begin Again.
+
+7. After installation, replace the `FalloutNV.exe` located in `<path to where you installed Begin Again>\mods\FNV4GB\Root` with the one from your game's root folder (make sure you've used the [4GB Patcher](https://www.nexusmods.com/newvegas/mods/62552) on it).
 
 > [!tip]
-> You can also use this [web app](https://kotcrab.github.io/xdelta-wasm/) if you prefer to use a GUI rather than CLI.
+> You can also use this [web app](https://kotcrab.github.io/xdelta-wasm/) if you prefer to use a GUI rather than CLI. You will need to manually place the file `FalloutNV-patched.exe` into your game's root folder.
 
 The output file's hashes should match these:
 - CRC-32: `4CE97099`

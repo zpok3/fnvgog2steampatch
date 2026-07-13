@@ -1,0 +1,1 @@
+.\xdelta3 -d -s FalloutNV_backup.exe fnvgog2steampatch.xdelta FalloutNV_steam.exe

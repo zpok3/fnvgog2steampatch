@@ -1,5 +1,5 @@
 # fnvgog2steampatch
-Delta patch that turns the executable from the GOG version of Fallout: New Vegas into the one from the Steam version. [Nexus page](https://www.nexusmods.com/newvegas/mods/87244)
+Delta patch that turns the executable from the GOG version of Fallout: New Vegas into the one from the Steam version. Download available on the [Nexus page](https://www.nexusmods.com/newvegas/mods/87244).
 
 ## Overview
 This delta patch is pretty much only for installing [Begin Again](https://www.nexusmods.com/newvegas/mods/79547) because as far as I know, Begin Again is the only Wabbajack modlist for New Vegas that delta patches platform specific files (4GB patched `FalloutNV.exe`), and as such requires the Steam version.
